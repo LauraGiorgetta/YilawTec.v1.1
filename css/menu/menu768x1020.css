@@ -1,0 +1,4 @@
+@import "menu1020.css";
+header {
+    padding: calc(var(--padding-phone) / 2) var(--padding-phone);
+}

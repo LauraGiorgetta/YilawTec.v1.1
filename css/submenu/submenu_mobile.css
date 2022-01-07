@@ -1,0 +1,38 @@
+/* Menu Lateral */
+
+
+/* Menu Lateral */
+
+.lateral {
+    width: var(--lateral-width-mobile);
+}
+
+.lateral a {
+    font-size: var(--text-small);
+}
+
+.lateral h2 {
+    font-size: var(--text-medium);
+}
+
+.lateral-open {
+    width: 1rem;
+    height: calc(100vh - 32px - var(--padding-phone));
+    position: fixed;
+    top: calc(var(--padding-phone) + 32px);
+    left: var(--lateral-width-mobile);
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    background-color: var(--color-principal);
+    color: var(--color-light);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: 1px ridge var(--color-principal-light);
+}
+
+
+/* Fin Menu Lateral */
+
+
+/* Fin Menu Lateral */

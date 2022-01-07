@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Raleway:wght@300;400;600;700&display=swap");
+@import "menu/menu_mobile.css" (max-width: 768px);
+@import "menu/menu768x1020.css" (min-width: 768px) and (max-width: 1020px);
+@import "menu/menu1020.css" (min-width: 1020px);
+@import "submenu/submenu.css";
+
+/* Variables */
+
+:root {
+    /* Titulo principal del logo */
+    --logo: 1.7rem;
+    /* Tamaño texto */
+    --text-small: .8rem;
+    --text-medium: 1.2rem;
+    /* Espacio a los costados del telefono */
+    --padding-phone: 1rem;
+    /* Paddings*/
+    --padding-text: .5em;
+    /* Colores */
+    --color-principal: #4a4ead;
+    --color-principal-transparent: #4a4eadef;
+    --color-light: #fff;
+    --color-darck: #335;
+    --color-principal-light: #f0f0ff;
+    /* transition */
+    --time: .5s;
+    /* Barra Laterial */
+    --lateral-width-mobile: 12rem;
+    --lateral-width-destock: 15rem;
+}
+
+
+/* Fin Variables */
+
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+/* Fin General */
+
+
+/* Menu */
+
+header {
+    background-color: var(--color-principal);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header h1 {
+    color: var(--color-light);
+    font-weight: 600;
+    font-size: var(--logo);
+    cursor: pointer;
+    margin-left: .5rem;
+    margin-left: 32px;
+}
+
+header::before {
+    content: url("../img/svg/logo-white.svg");
+    height: 32px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+/* Fin Menu */

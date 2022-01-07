@@ -1,0 +1,47 @@
+:root {
+    --padding-destock: 5rem;
+}
+
+
+/* Menu */
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(var(--padding-phone) / 2) var(--padding-destock);
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    padding: 0 1rem;
+    border-right: dotted 1px var(--color-light);
+}
+
+header nav a {
+    color: var(--color-light);
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px dotted #00F0;
+    transition: var(--time);
+}
+
+header nav a:hover {
+    border-bottom: 1px dotted var(--color-light);
+}
+
+
+/* Menu hamburguesa creado en js */
+
+.box-menu {
+    display: none;
+}
+
+
+/* Fin Menu hamburguesa creado en js */
+
+
+/* Fin Menu */

@@ -1,0 +1,16 @@
+/* Menu Lateral */
+
+.lateral {
+    width: var(--lateral-width-destock);
+}
+
+.lateral a {
+    font-size: .9rem;
+}
+
+.lateral h2 {
+    font-size: 1.7rem;
+}
+
+
+/* Fin Menu Lateral */
