@@ -5,6 +5,8 @@
 
 .lateral {
     width: var(--lateral-width-mobile);
+    transition-duration: var(--time);
+    left: 0;
 }
 
 .lateral a {
@@ -15,7 +17,13 @@
     font-size: var(--text-medium);
 }
 
+.lateralx {
+    transition-duration: var(--time);
+    left: calc(var(--lateral-width-mobile) * -1);
+}
+
 .lateral-open {
+    transition-duration: var(--time);
     width: 1rem;
     height: calc(100vh - 32px - var(--padding-phone));
     position: fixed;
@@ -29,6 +37,11 @@
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border: 1px ridge var(--color-principal-light);
+    cursor: pointer;
+}
+
+.lateral-close {
+    left: 0;
 }
 
 
