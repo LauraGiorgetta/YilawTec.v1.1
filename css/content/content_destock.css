@@ -1,0 +1,9 @@
+.content {
+    margin-left: var(--lateral-width-destock);
+    padding: var(--padding-destock);
+}
+
+.content .code {
+    padding: 1rem .5rem;
+    margin: 1rem 2rem;
+}

@@ -1,0 +1,8 @@
+.content {
+    margin-left: var(--padding-phone);
+    padding: var(--padding-phone);
+}
+
+.content .code {
+    padding: 1rem .5rem;
+}

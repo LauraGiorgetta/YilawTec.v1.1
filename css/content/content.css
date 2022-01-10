@@ -1,0 +1,29 @@
+@import "content_destock.css" (min-width: 768px);
+@import "content_mobile.css" (max-width: 768px);
+.content:first-of-type {
+    padding-top: calc(var(--logo) + var(--padding-phone));
+}
+
+.content {
+    background: var(--color-light-gradient);
+}
+
+.content h2,
+.content h3 {
+    color: var(--color-principal);
+    padding: var(--padding-text) 0;
+}
+
+.content .code {
+    background: var(--full-color);
+    border: var(--color-principal) 1px solid;
+    border-left: var(--color-tag) 3px solid;
+    overflow: auto;
+}
+
+.content .tag {
+    color: var(--color-tag);
+    font-family: monospace;
+    font-size: var(--text-tag);
+    font-weight: bold;
+}

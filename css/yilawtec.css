@@ -3,6 +3,7 @@
 @import "menu/menu768x1020.css" (min-width: 768px) and (max-width: 1020px);
 @import "menu/menu1020.css" (min-width: 1020px);
 @import "submenu/submenu.css";
+@import "content/content.css";
 
 /* Variables */
 
@@ -12,21 +13,26 @@
     /* Tamaño texto */
     --text-small: .8rem;
     --text-medium: 1.2rem;
+    --text-tag: 1rem;
     /* Espacio a los costados del telefono */
     --padding-phone: 1rem;
     /* Paddings*/
     --padding-text: .5em;
+    --padding-destock: 2rem;
     /* Colores */
     --color-principal: #4a4ead;
     --color-principal-transparent: #4a4eadef;
     --color-light: #fff;
     --color-darck: #335;
     --color-principal-light: #f0f0ff;
+    --color-tag: #05f;
+    --full-color: linear-gradient(142deg, rgba(236, 235, 255, 1) 0%, rgba(235, 247, 255, 1) 6%, rgba(240, 255, 252, 1) 13%, rgba(235, 255, 246, 1) 19%, rgba(232, 255, 239, 1) 26%, rgba(253, 254, 238, 1) 33%, rgba(255, 250, 239, 1) 42%, rgba(255, 240, 235, 1) 49%, rgba(255, 234, 234, 1) 55%, rgba(255, 235, 245, 1) 61%, rgba(253, 236, 255, 1) 68%, rgba(241, 235, 255, 1) 76%, rgba(237, 237, 255, 1) 84%, rgba(238, 239, 255, 1) 90%, rgba(239, 250, 255, 1) 95%, rgba(237, 255, 255, 1) 100%);
+    --color-light-gradient: linear-gradient(142deg, rgba(238, 245, 255, 1) 0%, rgba(243, 255, 255, 1) 49%, rgba(238, 245, 255, 1) 100%);
     /* transition */
     --time: .5s;
     /* Barra Laterial */
     --lateral-width-mobile: 12rem;
-    --lateral-width-destock: 15rem;
+    --lateral-width-destock: 17rem;
 }
 
 

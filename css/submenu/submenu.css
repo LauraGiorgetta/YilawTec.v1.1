@@ -1,4 +1,5 @@
 @import "submenu_mobile.css" (max-width: 768px);
+@import "submenu_destock.css" (min-width: 768px);
 
 /* Menu Lateral */
 
